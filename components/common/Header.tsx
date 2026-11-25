@@ -49,10 +49,10 @@ export function Header({ data }: HeaderProps) {
           : 'border-b border-transparent bg-white/90 backdrop-blur-sm'
       }`}
     >
-      <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-4 py-3 lg:px-8">
+      <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-2 px-4 py-3 sm:gap-4 lg:px-8">
         <Link
           href="/#hero"
-          className="flex shrink-0 items-center focus:outline-none"
+          className="flex min-w-0 max-w-[calc(100%-52px)] items-center focus:outline-none sm:max-w-none"
           aria-label={data.brandName}
         >
           <Image
@@ -62,7 +62,7 @@ export function Header({ data }: HeaderProps) {
             height={66}
             unoptimized
             priority
-            className="h-14 w-auto object-contain sm:h-16 lg:h-20"
+            className="h-10 w-auto max-w-full object-contain object-left sm:h-16 lg:h-20"
           />
         </Link>
 
@@ -105,7 +105,7 @@ export function Header({ data }: HeaderProps) {
             onClick={() => setMobileOpen((prev) => !prev)}
             aria-label={mobileOpen ? data.mobileMenuCloseLabel : data.mobileMenuOpenLabel}
             aria-expanded={mobileOpen}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-[var(--color-border)] bg-white text-[var(--color-heading)] transition-colors hover:bg-[var(--color-bg-soft)] lg:hidden"
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-[var(--color-border)] bg-white text-[var(--color-heading)] transition-colors hover:bg-[var(--color-bg-soft)] lg:hidden"
           >
             {mobileOpen ? (
               <FiX className="h-5 w-5" aria-hidden="true" />
