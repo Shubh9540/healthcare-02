@@ -1,0 +1,492 @@
+{
+  "common": {
+    "theme": {
+      "fontFamily": "Inter",
+      "displayFontFamily": "Plus Jakarta Sans"
+    },
+    "Footer": {
+      "logoPath": "/main logo/footer logo.webp",
+      "logoAlt": "DDMS Health Care - Precision Dentistry and Care",
+      "brandSummary": "Modern, evidence-based dental and healthcare clinic delivering gentle, 3D-guided clinical precision for families and professionals.",
+      "quickLinksTitle": "Clinic Navigation",
+      "quickLinks": [
+        {
+          "label": "Home",
+          "href": "/#hero"
+        },
+        {
+          "label": "About Our Team",
+          "href": "/#about"
+        },
+        {
+          "label": "Why DDMS",
+          "href": "/#why-choose-us"
+        },
+        {
+          "label": "Patient Reviews",
+          "href": "/#testimonials"
+        },
+        {
+          "label": "Common FAQs",
+          "href": "/#faq"
+        }
+      ],
+      "usefulLinksTitle": "Dental Specialties",
+      "usefulLinks": [
+        {
+          "label": "Porcelain Veneers",
+          "href": "/#services"
+        },
+        {
+          "label": "3D Dental Implants",
+          "href": "/#services"
+        },
+        {
+          "label": "Clear Aligners",
+          "href": "/#services"
+        },
+        {
+          "label": "LED Whitening",
+          "href": "/#services"
+        },
+        {
+          "label": "Book Consultation",
+          "href": "/#contact"
+        }
+      ],
+      "contactTitle": "Visit & Contact",
+      "phone": "+1 00000 00000",
+      "email": "info@xyz.com",
+      "address": "123 Main St, New York, NY, USA",
+      "hours": "Mon – Sat: 8:00 AM – 7:00 PM",
+      "copyrightText": "© 2026 DDMS Health Care. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "DoctorHealthcare": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "DoctorHealthcareHeader2": {
+              "logoPath": "/main logo/header logo.webp",
+              "logoAlt": "DDMS Health Care - Precision Dentistry and Care",
+              "brandName": "DDMS Health Care",
+              "navLinks": [
+                {
+                  "label": "Home",
+                  "href": "/#hero"
+                },
+                {
+                  "label": "About",
+                  "href": "/#about"
+                },
+                {
+                  "label": "Treatments",
+                  "href": "/#services"
+                },
+                {
+                  "label": "Why Us",
+                  "href": "/#why-choose-us"
+                },
+                {
+                  "label": "Reviews",
+                  "href": "/#testimonials"
+                },
+                {
+                  "label": "FAQ",
+                  "href": "/#faq"
+                }
+              ],
+              "ctaLabel": "Book Appointment",
+              "ctaHref": "/#contact",
+              "mobileMenuOpenLabel": "Open navigation menu",
+              "mobileMenuCloseLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "DoctorHealthcareHero2": {
+              "badge": "Accepting New Patients • Same-Week Visits",
+              "titlePrefix": "Precision Dentistry,",
+              "titleHighlight": "Gentle",
+              "titleSuffix": "Clinical Care.",
+              "description": "At DDMS Health Care, we pair digital 3D diagnostics with calm, pain-free dental artistry. From preventive checkups to full-mouth restoration, every visit is tailored around your comfort.",
+              "primaryCtaLabel": "Book Consultation",
+              "primaryCtaHref": "/#contact",
+              "secondaryCtaLabel": "Explore Treatments",
+              "secondaryCtaHref": "/#services",
+              "doctorImage": "/hero/ddms-hero-doctor.webp",
+              "doctorImageAlt": "Lead Dental Specialist at DDMS Health Care",
+              "metrics": [
+                {
+                  "id": "metric-years",
+                  "value": "18+",
+                  "label": "Years of Clinical Excellence"
+                },
+                {
+                  "id": "metric-smiles",
+                  "value": "15,000+",
+                  "label": "Healthy Smiles Restored"
+                },
+                {
+                  "id": "metric-rating",
+                  "value": "4.9 / 5",
+                  "label": "Verified Patient Rating"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "DoctorHealthcareAboutUs2": {
+              "eyebrow": "About DDMS Health Care",
+              "title": "Where Evidence-Based Dentistry Meets Calm Human Empathy",
+              "description": "Founded with a single mission—making specialist dental care transparent, gentle, and predictable—DDMS Health Care brings restorative dentists, orthodontists, and oral surgeons together under one roof. We listen first, explain every option clearly, and never rush your care.",
+              "image": "/about/ddms-about-specialist.jpg",
+              "imageAlt": "Lead dentist and clinical care team at DDMS Health Care",
+              "statValue": "99.4%",
+              "statLabel": "Patient Comfort Score",
+              "pillars": [
+                {
+                  "id": "pillar-gentle",
+                  "icon": "heart",
+                  "title": "Pain-Free & Sedation Options",
+                  "description": "Computer-assisted numbing and gentle chairside techniques keep even anxious patients completely relaxed."
+                },
+                {
+                  "id": "pillar-digital",
+                  "icon": "scan",
+                  "title": "3D Digital Precision",
+                  "description": "In-house CBCT imaging and optical scanners ensure accurate, minimally invasive treatment planning."
+                },
+                {
+                  "id": "pillar-team",
+                  "icon": "shield",
+                  "title": "Board-Certified Specialists",
+                  "description": "Collaborative care across cosmetic, implant, orthodontic, and preventive dental disciplines."
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "DoctorHealthcareServices2": {
+              "eyebrow": "Our Dental Specialties",
+              "title": "Comprehensive Treatments Under One Roof",
+              "subtitle": "From routine preventive hygiene to complex 3D-guided implants, explore our core clinical services.",
+              "prevAriaLabel": "Previous treatment",
+              "nextAriaLabel": "Next treatment",
+              "items": [
+                {
+                  "id": "service-veneers",
+                  "category": "Cosmetic Dentistry",
+                  "title": "Porcelain Veneers & Smile Design",
+                  "description": "Ultra-thin, hand-layered ceramic veneers tailored to your facial proportions for a natural, stain-resistant smile.",
+                  "duration": "2–3 Visits",
+                  "highlight": "Digital Smile Preview",
+                  "image": "/services/ddms-service-veneers.jpg",
+                  "imageAlt": "Patient with natural porcelain veneers smile",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                },
+                {
+                  "id": "service-implants",
+                  "category": "Restorative Care",
+                  "title": "3D-Guided Dental Implants",
+                  "description": "Biocompatible titanium and zirconia implants placed with computer-guided precision for lifelong stability.",
+                  "duration": "Same-Day Plan",
+                  "highlight": "CBCT 3D Guided",
+                  "image": "/services/ddms-service-implants.jpg",
+                  "imageAlt": "Dentist explaining ceramic dental implant model to patient",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                },
+                {
+                  "id": "service-aligners",
+                  "category": "Orthodontics",
+                  "title": "Clear Aligner Therapy",
+                  "description": "Discreet, removable aligners mapped via 3D intraoral scanning to straighten teeth comfortably without metal brackets.",
+                  "duration": "6–14 Months",
+                  "highlight": "Zero Putty Molds",
+                  "image": "/services/ddms-service-aligners.jpg",
+                  "imageAlt": "Transparent clear orthodontic aligner tray",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                },
+                {
+                  "id": "service-whitening",
+                  "category": "Aesthetic Care",
+                  "title": "Enamel-Safe LED Whitening",
+                  "description": "Clinically formulated brightening paired with desensitizing minerals to lift deep stains up to 6 shades in one hour.",
+                  "duration": "60 Minutes",
+                  "highlight": "Low Sensitivity",
+                  "image": "/services/ddms-service-whitening.jpg",
+                  "imageAlt": "Patient relaxing during gentle LED teeth whitening session",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                },
+                {
+                  "id": "service-preventive",
+                  "category": "Preventive Hygiene",
+                  "title": "Comprehensive Exams & Airflow",
+                  "description": "Gentle warm-water biofilm therapy, digital cavity screening, and personalized gum health maintenance.",
+                  "duration": "45 Minutes",
+                  "highlight": "Gentle Airflow",
+                  "image": "/services/ddms-service-preventive.jpg",
+                  "imageAlt": "Dental hygienist performing gentle routine dental checkup",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                },
+                {
+                  "id": "service-endodontics",
+                  "category": "Micro-Endodontics",
+                  "title": "Microscopic Root Canal Therapy",
+                  "description": "High-magnification, single-visit root canal care designed to save natural teeth quickly and comfortably.",
+                  "duration": "60–90 Mins",
+                  "highlight": "Microscope Assisted",
+                  "image": "/services/ddms-service-endodontics.jpg",
+                  "imageAlt": "High-precision dental microscope in sterile treatment suite",
+                  "ctaLabel": "Book Assessment",
+                  "ctaHref": "/#contact"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "DoctorHealthcareWhyChooseUs2": {
+              "eyebrow": "The DDMS Standard",
+              "title": "Built Around Safety, Clarity, and Lasting Clinical Outcomes",
+              "description": "We eliminate the guesswork and anxiety of traditional dental visits through hospital-grade sterilization, upfront pricing, and unhurried specialist attention.",
+              "primaryImage": "/why-choose-us/ddms-why-equipment.jpg",
+              "primaryImageAlt": "3D CBCT dental imaging unit in minimalist radiology suite",
+              "secondaryImage": "/why-choose-us/ddms-why-suite.jpg",
+              "secondaryImageAlt": "Calm sunlit dental treatment room at DDMS Health Care",
+              "badgeTitle": "Class-B Autoclave",
+              "badgeSubtitle": "100% Hospital-Grade Sterilization",
+              "items": [
+                {
+                  "id": "why-imaging",
+                  "icon": "cpu",
+                  "title": "Ultra-Low-Dose 3D Imaging",
+                  "description": "Pinpoint diagnostics with 80% less radiation than conventional X-rays."
+                },
+                {
+                  "id": "why-sterile",
+                  "icon": "shield",
+                  "title": "Hospital-Grade Sterilization",
+                  "description": "Every instrument undergoes sealed Class-B vacuum autoclaving and tracking."
+                },
+                {
+                  "id": "why-pricing",
+                  "icon": "file",
+                  "title": "Clear, Upfront Estimates",
+                  "description": "Written treatment plans with insurance coordination and zero hidden fees."
+                },
+                {
+                  "id": "why-emergency",
+                  "icon": "clock",
+                  "title": "Same-Day Urgent Care",
+                  "description": "Dedicated daily slots reserved for toothaches, chips, and dental emergencies."
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "DoctorHealthcareTestimonials2": {
+              "eyebrow": "Patient Stories",
+              "title": "Trusted by Families Across New York",
+              "subtitle": "Real experiences from patients who chose DDMS Health Care for their dental wellness.",
+              "prevAriaLabel": "Previous patient review",
+              "nextAriaLabel": "Next patient review",
+              "items": [
+                {
+                  "id": "testimonial-1",
+                  "name": "Elena Rostova",
+                  "treatment": "Porcelain Veneers",
+                  "rating": 5,
+                  "quote": "I avoided dentists for years due to anxiety. The DDMS team walked me through the 3D smile preview step by step, and the entire veneer process felt calm, gentle, and completely transparent.",
+                  "avatar": "/testimonials/ddms-patient-1.jpg",
+                  "avatarAlt": "Portrait of patient Elena Rostova"
+                },
+                {
+                  "id": "testimonial-2",
+                  "name": "Marcus Vance",
+                  "treatment": "3D-Guided Implant",
+                  "rating": 5,
+                  "quote": "From the CBCT scan to final crown placement, the precision here is unmatched. I had virtually zero discomfort after my implant procedure and was back at work the very next morning.",
+                  "avatar": "/testimonials/ddms-patient-2.jpg",
+                  "avatarAlt": "Portrait of patient Marcus Vance"
+                },
+                {
+                  "id": "testimonial-3",
+                  "name": "Priya Nair",
+                  "treatment": "Clear Aligners",
+                  "rating": 5,
+                  "quote": "Digital scanning took less than five minutes—no messy impressions at all. My aligners fit seamlessly, and every check-in ran right on schedule without waiting room delays.",
+                  "avatar": "/testimonials/ddms-patient-3.jpg",
+                  "avatarAlt": "Portrait of patient Priya Nair"
+                },
+                {
+                  "id": "testimonial-4",
+                  "name": "David Sterling",
+                  "treatment": "Preventive & Whitening",
+                  "rating": 5,
+                  "quote": "The warmest clinical staff I have ever met. Their Airflow cleaning is remarkably gentle, and the LED whitening gave me a natural brightness without any post-visit sensitivity.",
+                  "avatar": "/testimonials/ddms-patient-4.jpg",
+                  "avatarAlt": "Portrait of patient David Sterling"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "DoctorHealthcareFaq2": {
+              "eyebrow": "Common Questions",
+              "title": "Everything You Need to Know Before Your Visit",
+              "subtitle": "Clear answers about appointments, insurance coverage, comfort options, and emergency dental care.",
+              "image": "/faq/ddms-faq-consultation.jpg",
+              "imageAlt": "Serene reception lounge at DDMS Health Care",
+              "calloutTitle": "Need Immediate Dental Advice?",
+              "calloutText": "Speak directly with our clinical care coordinator for same-day urgent slots or insurance verification.",
+              "calloutCtaLabel": "Call +1 00000 00000",
+              "calloutCtaHref": "tel:+10000000000",
+              "items": [
+                {
+                  "id": "faq-1",
+                  "question": "What happens during my first dental consultation at DDMS Health Care?",
+                  "answer": "Your 45-minute initial visit includes a comprehensive oral health exam, ultra-low-dose digital imaging, a 3D optical scan if needed, and an unhurried review of your goals with your dentist—followed by a clear written care plan."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "Do you accept dental insurance and offer flexible payment plans?",
+                  "answer": "Yes. We work with most major PPO dental insurance plans and submit claims electronically on your behalf. For cosmetic or implant treatments, we also offer 0% interest monthly installment options."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "How do you help patients who experience dental anxiety?",
+                  "answer": "We use gentle topical pre-numbing, computer-controlled local anesthesia, noise-canceling headphones, and unhurried pacing. Nitrous oxide and oral sedation are also available upon request."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "Can I book a same-day appointment for a dental emergency?",
+                  "answer": "Yes. We reserve dedicated daily clinical slots for acute toothaches, fractured teeth, lost crowns, and swelling. Call our clinic directly or submit the urgent request form below."
+                },
+                {
+                  "id": "faq-5",
+                  "question": "How often should I schedule preventive cleanings and checkups?",
+                  "answer": "Most adults benefit from preventive Airflow hygiene and digital checkups every six months, though patients managing gum inflammation or implants may be advised to visit every 3–4 months."
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "DoctorHealthcareContact2": {
+              "eyebrow": "Book Your Visit",
+              "title": "Schedule a Consultation With Our Dental Specialists",
+              "subtitle": "Have a question or ready to book? Send us a message and our care coordinator will confirm your preferred slot.",
+              "panelTitle": "DDMS Health Care Clinic",
+              "panelDescription": "Conveniently located in Midtown Manhattan with extended weekday and Saturday hours.",
+              "infoItems": [
+                {
+                  "id": "contact-phone",
+                  "icon": "phone",
+                  "label": "Direct Clinic Line",
+                  "value": "+1 00000 00000",
+                  "href": "tel:+10000000000"
+                },
+                {
+                  "id": "contact-email",
+                  "icon": "mail",
+                  "label": "Patient Care Email",
+                  "value": "info@xyz.com",
+                  "href": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "contact-address",
+                  "icon": "map",
+                  "label": "Clinic Address",
+                  "value": "123 Main St, New York, NY, USA"
+                },
+                {
+                  "id": "contact-hours",
+                  "icon": "clock",
+                  "label": "Opening Hours",
+                  "value": "Mon – Sat: 8:00 AM – 7:00 PM"
+                }
+              ],
+              "form": {
+                "heading": "Request an Appointment",
+                "subheading": "We respond to all appointment inquiries within 2 business hours.",
+                "nameLabel": "Full Name",
+                "namePlaceholder": "Jane Doe",
+                "emailLabel": "Email Address",
+                "emailPlaceholder": "info@xyz.com",
+                "phoneLabel": "Phone Number",
+                "phonePlaceholder": "+1 00000 00000",
+                "treatmentLabel": "Treatment Interest",
+                "treatmentOptions": [
+                  "Comprehensive Exam & Cleaning",
+                  "Porcelain Veneers & Smile Design",
+                  "3D-Guided Dental Implants",
+                  "Clear Aligner Orthodontics",
+                  "LED Teeth Whitening",
+                  "Urgent Dental Care"
+                ],
+                "messageLabel": "Notes or Preferred Timing",
+                "messagePlaceholder": "Share any symptoms, preferred days, or questions...",
+                "submitLabel": "Confirm Request",
+                "successTitle": "Appointment Request Received",
+                "successMessage": "Thank you for contacting DDMS Health Care. Our care coordinator will reach out shortly to finalize your visit.",
+                "resetLabel": "Send Another Request"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "key": "Hero",
+          "component": "DoctorHealthcareHero2"
+        },
+        {
+          "key": "AboutUs",
+          "component": "DoctorHealthcareAboutUs2"
+        },
+        {
+          "key": "Services",
+          "component": "DoctorHealthcareServices2"
+        },
+        {
+          "key": "WhyChooseUs",
+          "component": "DoctorHealthcareWhyChooseUs2"
+        },
+        {
+          "key": "Testimonials",
+          "component": "DoctorHealthcareTestimonials2"
+        },
+        {
+          "key": "Faq",
+          "component": "DoctorHealthcareFaq2"
+        },
+        {
+          "key": "Contact",
+          "component": "DoctorHealthcareContact2"
+        }
+      ]
+    }
+  }
+}
